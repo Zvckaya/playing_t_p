@@ -1,0 +1,94 @@
+body{
+    margin:0px;
+    font-family: 'Kiwi Maru', serif;
+    background-image:url('back.jpeg');
+}
+
+footer{
+    position: absolute;
+    left:  0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    
+}
+
+.m_con_id{
+    display: flex;
+}
+
+.m_container{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    height: 200px;
+}
+.t_l{
+    margin-top: 100px;
+    animation: setbordert 2s;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+.m_l{
+    height: 200px;
+    animation: setborders 2s;
+    animation-delay: 200;
+    background-color: black;
+    width: 1px;
+
+}
+.b_l{
+
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+
+
+.r_music{
+    text-align: left;
+    width: 50%;
+
+}
+
+.p_music{
+    text-align: right;
+    width: 50%;
+
+}
+
+.m_introduce{
+    animation: fadein 2s;
+    font-family: 'Nanum Myeongjo', serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes setbordert{
+    from{
+        width: 1%;
+    }
+    to{
+        width:100%;
+
+    }
+}
+@keyframes setborders{
+    from{
+        height: 1px;
+    }
+    to{
+        height: 200px;
+    }
+}
