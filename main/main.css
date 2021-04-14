@@ -5,11 +5,8 @@ body{
 }
 
 footer{
-    position: absolute;
-    left:  0;
-    bottom: 0;
-    width: 100%;
-    padding: 15px 0;
+    margin-top: 10%;
+    margin-bottom: 30px;
     text-align: center;
     
 }
@@ -59,11 +56,37 @@ footer{
 
 }
 
+.mk_bd{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: black;
+}
+
 .m_introduce{
     animation: fadein 2s;
     font-family: 'Nanum Myeongjo', serif;
     padding-top: 100px;
     text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.m_in_ryu{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.m_in_ab{
+    
+    flex-direction: row-reverse;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.m_int{
+    margin-left: 5%;
 }
 
 @keyframes fadein{
